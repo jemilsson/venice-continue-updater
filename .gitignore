@@ -1,0 +1,34 @@
+# Nix build outputs
+result
+result-*
+
+# Nix flake lockfile (optional, some prefer to commit this)
+# flake.lock
+
+# Direnv
+.direnv/
+
+# Nix store paths
+.nix-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
